@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import { TimerCountDownDisplay } from './TimerCountDownDisplay';
-import { TimerToggleButton } from './TimerToggleButton';
-import { TimerModeDisplay } from './TimerModelDisplay';
+import { TimerCountDownDisplay } from './components/TimerCountDownDisplay';
+import { TimerToggleButton } from './components/TimerToggleButton';
+import { TimerModeDisplay } from './components/TimerModelDisplay';
 
 const FOCUS_TIME_MINUTES = 25 * 60 * 1000;
 const BREAK_TIME_MINUTES = 5 * 60 * 1000;
