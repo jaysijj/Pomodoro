@@ -5,8 +5,8 @@ import { TimerCountDownDisplay } from './TimerCountDownDisplay';
 import { TimerToggleButton } from './TimerToggleButton';
 import { TimerModeDisplay } from './TimerModelDisplay';
 
-const FOCUS_TIME_MINUTES = 0.2 * 60 * 1000;
-const BREAK_TIME_MINUTES = 0.1 * 60 * 1000;
+const FOCUS_TIME_MINUTES = 25 * 60 * 1000;
+const BREAK_TIME_MINUTES = 5 * 60 * 1000;
 
 export default function App() {
   const [timerCount, setTimerCount] = useState<number>(FOCUS_TIME_MINUTES)
